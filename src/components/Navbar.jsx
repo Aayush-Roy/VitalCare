@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Stethoscope, Ambulance, PlusCircle, Wallet } from 'lucide-react';
+import { MdBloodtype } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -30,6 +31,10 @@ const Navbar = () => {
             <Link to="/marketplace" className="nav-link">
               <Wallet className="h-5 w-5" />
               <span>Marketplace</span>
+            </Link>
+            <Link to="/bloodcenter" className='nav-link'>
+            <MdBloodtype className='h-5 w-5'/>
+            <span>Blood Banks</span>
             </Link>
           </div>
         </div>

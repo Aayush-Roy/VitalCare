@@ -6,6 +6,7 @@ import CertificateVerification from './components/CertificateVerification';
 import BloodDonation from './components/BloodDonation';
 import AmbulanceLocator from './components/AmbulanceLocator';
 import Marketplace from './components/Marketplace';
+import BloodBankSearch from './components/BloodBankSearch';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/blood-donation" element={<BloodDonation />} />
           <Route path="/ambulance" element={<AmbulanceLocator />} />
           <Route path="/marketplace" element={<Marketplace />} />
+          <Route path="/bloodcenter" element={<BloodBankSearch />} />
         </Routes>
       </div>
     </Router>
